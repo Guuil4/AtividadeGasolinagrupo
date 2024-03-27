@@ -1,6 +1,6 @@
 import React from "react";
 import { TouchableOpacity, Text } from "react-native";
-import Styles from "./Styles";
+import Styles from "../style/StyleSheet";
 
 const CustomTouchable = ({ onPress, text }) => (
   <TouchableOpacity style={Styles.button} onPress={onPress}>
