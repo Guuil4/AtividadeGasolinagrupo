@@ -41,12 +41,12 @@ export default function App() {
   );
 }
 
-//texts pra colocar dentro do modal
-<Text>Compensa usar (resultado do calculo) </Text>
+//texts pra colocar dentro do modal!!
+{/* <Text>Compensa usar (resultado do calculo) </Text>
 <Text>Com os preços:</Text>
 <Text>Álcool: R$(preço)</Text>
 <Text>:Gasolina R$(preço)</Text>
-
+ */}
 
 const styles = StyleSheet.create({
   container: {
