@@ -37,6 +37,20 @@ const Styles = StyleSheet.create({
     textAlign: "center",
   },
 
+  button1: {
+    backgroundColor: "black",
+    padding: 15,
+    borderRadius: 5,
+    marginTop: 20,
+    borderColor: 'red',
+  },
+
+  buttonText1: {
+    fontSize: 20,
+    color: "red",
+    textAlign: "center",
+  },
+
   modalContainer: {
     flex: 1,
     backgroundColor: "black",
