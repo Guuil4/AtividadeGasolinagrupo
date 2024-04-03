@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View } from "react-native";
+import { View, Text } from "react-native";
 import CustomText from "./src/Components/TextComponent";
 import CustomInput from "./src/Components/InputComponent";
 import CustomTouchable from "./src/Components/ButtonComponent";
@@ -35,11 +35,13 @@ const MyApp = () => {
     <View style={Styles.container}>
       <CustomImage />
       <CustomText />
+      <Text style={Styles.simpleText}>Álcool (preço por litro)</Text>
       <CustomInput
         placeholder="Preço do Álcool"
         value={alcool}
         onChangeText={setAlcool}
       />
+      <Text style={Styles.simpleText}>Gasolina (preço por litro)</Text>
       <CustomInput
         placeholder="Preço da Gasolina"
         value={gasolina}

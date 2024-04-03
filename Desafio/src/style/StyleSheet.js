@@ -69,6 +69,7 @@ const Styles = StyleSheet.create({
   imagemodal: {
     width: 100,
     height: 100,
+    left: 120,
   },
 
   TitleText: {
@@ -84,6 +85,11 @@ const Styles = StyleSheet.create({
   },
 
   modalText: {
+    fontSize: 15,
+    color: "white",
+  },
+
+  simpleText: {
     fontSize: 15,
     color: "white",
   },
