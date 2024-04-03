@@ -42,7 +42,7 @@ const Styles = StyleSheet.create({
     padding: 15,
     borderRadius: 5,
     marginTop: 20,
-    borderColor: 'red',
+    borderColor: "red",
   },
 
   buttonText1: {
