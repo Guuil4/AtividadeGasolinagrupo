@@ -12,11 +12,12 @@ const ResultadoModal = ({ visible, alcool, gasolina, resultado, onClose }) => (
     onRequestClose={onClose}
   >
     <View style={Styles.modalContainer}>
-      <View style={Styles.modalContent}>
+      <View>
         <CustomImagegas />
+        <Text style={Styles.TitleText}>Compensa usar {resultado}</Text>
+        <Text style={Styles.middletext}>Com os Preços:</Text>
         <Text style={Styles.modalText}>Valor do Álcool: R$ {alcool}</Text>
         <Text style={Styles.modalText}>Valor da Gasolina: R$ {gasolina}</Text>
-        <Text style={Styles.modalText}>Recomendação: {resultado}</Text>
         <CustomTouchable onPress={onClose} text="Calcular Novamente" />
       </View>
     </View>

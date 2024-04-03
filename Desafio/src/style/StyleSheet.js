@@ -7,11 +7,13 @@ const Styles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
   },
+
   title: {
     fontSize: 24,
     color: "white",
     marginBottom: 20,
   },
+
   input: {
     width: "80%",
     backgroundColor: "white",
@@ -21,28 +23,27 @@ const Styles = StyleSheet.create({
     borderWidth: 1,
     borderColor: "gray",
   },
+
   button: {
-    backgroundColor: "#2196F3",
+    backgroundColor: "red",
     padding: 15,
     borderRadius: 5,
     marginTop: 20,
   },
+
   buttonText: {
     fontSize: 20,
     color: "white",
     textAlign: "center",
   },
+
   modalContainer: {
     flex: 1,
     backgroundColor: "black",
     alignItems: "center",
     justifyContent: "center",
   },
-  modalText: {
-    fontSize: 20,
-    color: "white",
-    marginBottom: 10,
-  },
+
   image: {
     width: 100,
     height: 100,
@@ -54,7 +55,23 @@ const Styles = StyleSheet.create({
     width: 100,
     height: 100,
     borderRadius: 50,
-    marginTop: 20,
+  },
+
+  TitleText: {
+    color: "green",
+    fontSize: 30,
+  },
+
+  middletext: {
+    color: "white",
+    fontSize: 20,
+    marginTop: 15,
+    ali: "center",
+  },
+
+  modalText: {
+    fontSize: 15,
+    color: "white",
   },
 });
 
