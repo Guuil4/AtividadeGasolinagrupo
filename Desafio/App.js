@@ -5,6 +5,7 @@ import CustomInput from "./src/Components/InputComponent";
 import CustomTouchable from "./src/Components/ButtonComponent";
 import Styles from "./src/style/StyleSheet";
 import CustomImage from "./src/Components/ImageComponent";
+import ResultadoModal from "./src/Components/ResultadoModal";
 
 const MyApp = () => {
   const [alcool, setAlcool] = useState("");
@@ -55,27 +56,5 @@ const MyApp = () => {
     </View>
   );
 };
-
-const ResultadoModal = ({ visible, alcool, gasolina, resultado, onClose }) => (
-  <Modal
-    animationType="slide"
-    transparent={true}
-    visible={visible}
-    onRequestClose={onClose}
-  >
-    <View style={Styles.modalContainer}>
-      <CustomText style={Styles.modalText}>
-        Valor do Álcool: R$ {alcool}
-      </CustomText>
-      <CustomText style={Styles.modalText}>
-        Valor da Gasolina: R$ {gasolina}
-      </CustomText>
-      <CustomText style={Styles.modalText}>
-        Recomendação: {resultado}
-      </CustomText>
-      <CustomTouchable onPress={onClose} text="Calcular Novamente" />
-    </View>
-  </Modal>
-);
 
 export default MyApp;
