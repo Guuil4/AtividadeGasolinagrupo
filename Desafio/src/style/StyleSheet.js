@@ -52,7 +52,7 @@ const Styles = StyleSheet.create({
     textAlign: "center",
   },
 
-  modalContainer: {
+  modal: {
     flex: 1,
     backgroundColor: "black",
     alignItems: "center",
@@ -82,7 +82,7 @@ const Styles = StyleSheet.create({
     color: "white",
     fontSize: 20,
     marginTop: 15,
-    ali: "center",
+    fontWeight: "bold",
   },
 
   modalText: {
