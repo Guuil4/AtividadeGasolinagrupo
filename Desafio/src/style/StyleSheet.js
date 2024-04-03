@@ -49,6 +49,13 @@ const Styles = StyleSheet.create({
     borderRadius: 50,
     marginTop: 20,
   },
+
+  imagemodal: {
+    width: 100,
+    height: 100,
+    borderRadius: 50,
+    marginTop: 20,
+  },
 });
 
 export default Styles;

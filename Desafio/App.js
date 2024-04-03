@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Modal, ImageComponent } from "react-native";
+import { View } from "react-native";
 import CustomText from "./src/Components/TextComponent";
 import CustomInput from "./src/Components/InputComponent";
 import CustomTouchable from "./src/Components/ButtonComponent";
