@@ -1,6 +1,6 @@
 import React from "react";
 import { View, Modal, Text } from "react-native";
-import CustomTouchable1 from "./ButtonComponent";
+import CustomTouchable1 from "./ModalButton";
 import Styles from "../style/StyleSheet";
 import CustomImagegas from "./ImageModalComponent";
 
