@@ -11,7 +11,7 @@ const ResultadoModal = ({ visible, alcool, gasolina, resultado, onClose }) => (
     visible={visible}
     onRequestClose={onClose}
   >
-    <View style={Styles.modalContainer}>
+    <View style={Styles.modal}>
       <View>
         <CustomImagegas />
         <Text style={Styles.TitleText}>Compensa usar {resultado}</Text>

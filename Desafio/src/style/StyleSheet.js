@@ -42,7 +42,7 @@ const Styles = StyleSheet.create({
     padding: 15,
     borderRadius: 5,
     marginTop: 20,
-    borderColor: 'red',
+    borderColor: "red",
   },
 
   buttonText1: {
@@ -51,7 +51,7 @@ const Styles = StyleSheet.create({
     textAlign: "center",
   },
 
-  modalContainer: {
+  modal: {
     flex: 1,
     backgroundColor: "black",
     alignItems: "center",
@@ -68,7 +68,6 @@ const Styles = StyleSheet.create({
   imagemodal: {
     width: 100,
     height: 100,
-    borderRadius: 50,
   },
 
   TitleText: {
@@ -80,7 +79,7 @@ const Styles = StyleSheet.create({
     color: "white",
     fontSize: 20,
     marginTop: 15,
-    ali: "center",
+    fontWeight: "bold",
   },
 
   modalText: {
