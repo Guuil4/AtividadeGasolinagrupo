@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { View, Modal } from "react-native";
+import { View, Modal, ImageComponent } from "react-native";
 import CustomText from "./src/Components/TextComponent";
 import CustomInput from "./src/Components/InputComponent";
 import CustomTouchable from "./src/Components/ButtonComponent";
@@ -29,6 +29,7 @@ const MyApp = () => {
 
   return (
     <View style={Styles.container}>
+      <CustomImage />
       <CustomText />
       <CustomInput
         placeholder="Preço do Álcool"
@@ -41,7 +42,6 @@ const MyApp = () => {
         onChangeText={setGasolina}
       />
       <CustomTouchable onPress={calcularCombustivel} text="Calcular" />
-      <CustomImage />
       <ResultadoModal
         visible={modalVisible}
         alcool={alcool}
