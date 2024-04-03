@@ -14,10 +14,14 @@ const MyApp = () => {
   const [resultado, setResultado] = useState("");
 
   const calcularCombustivel = () => {
-    const resultadoCalculo = parseFloat(alcool) / parseFloat(gasolina);
-    const recomendacao = resultadoCalculo < 0.7 ? "Álcool" : "Gasolina";
-    setResultado(recomendacao);
-    setModalVisible(true);
+    if (alcool && gasolina) {
+      const resultadoCalculo = parseFloat(alcool) / parseFloat(gasolina);
+      const recomendacao = resultadoCalculo < 0.7 ? "Álcool" : "Gasolina";
+      setResultado(recomendacao);
+      setModalVisible(true);
+    } else {
+      alert("Por favor, insira valores para o preço do Álcool e da Gasolina.");
+    }
   };
 
   const calcularNovamente = () => {
